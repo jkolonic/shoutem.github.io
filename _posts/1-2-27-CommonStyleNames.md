@@ -17,7 +17,7 @@ This section covers common style names that can be used in several UI toolkit co
 
 This means that you can apply `sm-gutter` to component, for example `Tile`, and it will have 5px gutter around content.  
   
-If you want to apply gutter only to specific side of component (i.e. `right`), or to vertical sides, you can specify that by using additional position style name keywords listed below.
+> If you want to apply gutter only to specific side of component (i.e. `right`), or to vertical sides, you can specify that by using additional position style name keywords listed below.
 
 ## Position based style name variations  
 * **left** : gutter will be applied only to left side of targeted component.  
@@ -25,10 +25,12 @@ If you want to apply gutter only to specific side of component (i.e. `right`), o
 * **top** : gutter will be applied only to top side of targeted component.  
 * **bottom** : gutter will be applied only to bottom side of targeted component.  
 * **horizontal** : gutter will be applied only to horizontal sides (left and right) of targeted component.  
-* **vertical** : gutter will be applied only to vertical sides (top and bottom) of targeted component.
+* **vertical** : gutter will be applied only to vertical sides (top and bottom) of targeted component.  
   
-Note that on `View`, `Tile` and `Overlay` components gutter is applied as padding, while on `Text` (Typography) and `Button` components gutter is applied as margin.   
+> Note that on `View`, `Tile` and `Overlay` components gutter is applied as padding, while on `Text` (Typography) and `Button` components gutter is applied as margin.    
   
+<br />  
+
 ### rounded-corners
 - This style name applies border radius (defaults to 2 px) to targeted component.  
 
